@@ -1,0 +1,255 @@
+body {
+    background: url("../images/map.png");}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;}
+
+.rectangulo {position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 65%;
+    bottom: -18.72%;
+    min-width: 300px;
+    background: #FFFFFF;
+    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.1);}
+
+.rectangulo_2 {position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 79.93%;
+    bottom: -38.79%;
+    background: #FFFFFF;
+    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.1);}
+
+.taxis_libres {position: absolute;
+    left: 8%;
+    right: 73.33%;
+    top: 3.2%;
+    bottom: 88.18%;}
+
+h1 {position: absolute;
+    left: 8%;
+    right: 35%;
+    top: 4%;
+    bottom: 91.73%;        
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;        
+    color: #242B4C;}
+
+h2 {position: absolute;
+    left:8%;
+    right: 6.03%;
+    top: 14%;
+    bottom: 69.2%;        
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;        
+    color: #1B1F3B;}
+
+.foto_conductor {position: absolute;
+    left: 8%;
+    right: 38%;
+    top: 32%;
+    bottom: 62.03%;
+}
+
+.aliado_conductor {position: absolute;
+    left: 26%;
+    right: 38%;
+    top: 30%;
+    bottom: 62.03%;        
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #6782CC;}
+
+.nombre_aliado {position: absolute;
+    left: 26%;
+    right: 27.94%;
+    top: 36%;
+    bottom: 53.01%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;    
+    color: #1B1F3B;}
+
+.imagen_taxi {position: absolute;
+    left: 8%;
+    right: 56.51;
+    top: 58%;
+    bottom: 24.1%;}
+
+.titulo_taxi {position: absolute;
+    left: 24%;
+    right: 50%;
+    top: 54%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #6782CC;}
+
+.tipo_taxi {position: absolute;
+    left: 24%;
+    right: 57.78%;
+    top: 60%;
+    bottom: 23.31%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;    
+    color: #1B1F3B;}
+
+.estrella {position: absolute;
+    left: 56.19%;
+    right: 38.15%;
+    top: 60%;
+    bottom: 27.07%;}
+
+.numero_calificacion {position: absolute;
+    left: 64.76%;
+    right: 28.57%;
+    top: 54%;
+    bottom: 32.33%;    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;    
+    color: #6782CC;    
+    }
+
+.numero_viajes {position: absolute;
+    left: 64.76%;
+    right: 11.11%;
+    top: 60%;
+    bottom: 23.31%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;    
+    color: #1B1F3B;        
+    }
+
+.celular {position: absolute;
+    left: 8%;
+    right: 84.76%;
+    top: 74%;
+    bottom: 9.02%;    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;    
+    color: #6782CC;    
+    }
+
+.numero_celular {position: absolute;
+    left: 8%;
+    right: 73.02%;
+    top: 80%;
+    bottom: 0%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;    
+    color: #1B1F3B;    
+    }
+
+.placa {position: absolute;
+    left: 56.19%;
+    right: 32.06%;
+    top: 74%;
+    bottom: 9.02%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #6782CC;    
+    }
+
+.numero_placa {position: absolute;
+    left: 56.19%;
+    right: 26.67%;
+    top: 80%;
+    bottom: 0%;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #1B1F3B;    
+    }
+
+.linea_1 {border-top: 1px solid #E5E5E5;
+    height: 2px;
+    max-width: 350px;
+    padding: 0;
+    margin: 50px auto 0 auto;
+    position:absolute;
+    left: 2%;
+    right: 2%;
+    top: 13%;
+    bottom: 0%;
+}
+
+.linea_2 {border-top: 1px solid #E5E5E5;
+    height: 2px;
+    max-width: 350px;
+    padding: 0;
+    margin: 50px auto 0 auto;
+    position:absolute;
+    left: 2%;
+    right: 2%;
+    top: 38%;
+    bottom: 0%;
+    }
+
+.linea_3 {border-top: 1px solid #E5E5E5;
+    height: 2px;
+    max-width: 350px;
+    padding: 0;
+    margin: 50px auto 0 auto;
+    position:absolute;
+    left: 2%;
+    right: 2%;
+    top: 60%;
+    bottom: 0%;
+    }
+
+.linea_4 {
+    position: absolute;
+left: 49.84%;
+right: 50.16%;
+top: 56%;
+bottom: 30%;
+border: 1px solid #E5E5E5;
+    }
+
+.linea_5 {position: absolute;
+    left: 49.84%;
+    right: 50.16%;
+    top: 78%;
+    bottom: 8%;
+    border: 1px solid #E5E5E5;
+}
+
+.centrado{text-align: center;
+}
