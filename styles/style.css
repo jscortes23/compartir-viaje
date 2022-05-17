@@ -1,10 +1,37 @@
 body {
-    background: url("../images/map.png");}
+    background: url("../images/map.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
 .container{
     display: flex;
     flex-direction: column; 
+    height: 100vh;
+    width: 100px;
 }
+
+
+.main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .map {
+    width: 400px;
+    position: relative;
+    background-color: red;
+}
+
+.main .map-logo {
+    position: absolute;
+    top: 100%
+}
+
 
 .home {
     display: flex;
