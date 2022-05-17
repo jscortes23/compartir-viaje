@@ -1,6 +1,11 @@
 body {
     background: url("../images/map.png");}
 
+.container{
+    display: flex;
+    flex-direction: column; 
+}
+
 .home {
     display: flex;
     flex-wrap: wrap;}
